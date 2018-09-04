@@ -1,6 +1,6 @@
 {
   "name": "mock123",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "使用最简单、快捷的方式开启mock api之旅",
   "main": "",
   "scripts": {

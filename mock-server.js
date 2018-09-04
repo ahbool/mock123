@@ -8,9 +8,10 @@ const DEFAULT_PORT = 7777
 
 function handleResponseData(req, res, getData, postData){
 
+    let cwd = process.cwd()
     let pathName = url.parse(req.url).pathname
     let fileName = pathName.substr(pathName.lastIndexOf('/') + 1)
-    let localFile = path.join(__dirname, fileName)
+    let localFile = path.join(cwd, fileName)
 
     let jsFile = localFile + '.js'
     let jsonFile = localFile + '.json'
