@@ -1,0 +1,26 @@
+{
+  "name": "mock123",
+  "version": "0.1.0",
+  "description": "使用最简单、快捷的方式开启mock api之旅",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "mock123": "index.js"
+  },
+  "keywords": ["mock", "mock server", "mock api", "api", "api mock"],
+  "author": "ahbool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahbool/mock123/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahbool/mock123.git"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
